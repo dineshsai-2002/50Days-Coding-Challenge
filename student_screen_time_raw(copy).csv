@@ -1,0 +1,27 @@
+Pivot Table 1: Average Test Scores by Screen Time Category,
+Screen_Time_Category,Average of Test_Scores
+Moderate,69.07638889
+High,72.21619048
+Low ,70.91304348
+Grand Total,70.936
+,
+,
+,
+Pivot Table 2: Screen Time vs. Extracurricular Activity Trends,
+Pivot Table 2: Screen Time vs. Extracurricular Activity Trends,
+Screen_Time_Category,Average of Extra_Curricular_Hours
+Moderate,1.455555556
+High,1.611428571
+Low ,1.473913043
+Grand Total,1.5395
+,
+,
+,
+,
+,
+Pivot Table 3: Age Group-wise Performance,
+Age_Group,Average of Test_Scores
+13-14,72.28333333
+15-16,70.75
+17,68.46111111
+Grand Total,70.936
