@@ -1,4 +1,4 @@
-# 30Days-Coding-Challenge
+# 50Days-Coding-Challenge
 This repository contains my solutions to the Daily Coding Challenge. Each day, I complete one coding task, document my approach, and push the solution here.
 # Household Energy Consumption Analysis (Day 1)
 
