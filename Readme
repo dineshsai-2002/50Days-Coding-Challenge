@@ -1,1 +1,144 @@
-50 Days Coding Challenge
+# 50 Days Coding Challenge
+7-Day Excel Data Analytics Challenge
+📊 Overview
+A 7-day intensive program to master Excel for data analysis through real-world business scenarios. Each day focuses on a different industry and key Excel skills.
+
+📁 Daily Challenges
+Day 1: Household Energy Consumption Analysis
+File: Household_Energy.csv
+Skills: Data analysis, pattern identification, visualization
+Key Tasks:
+
+Analyze energy consumption patterns across households
+
+Identify high-energy-consuming household types
+
+Suggest energy-saving measures
+
+Create consumption dashboards
+
+Day 2: Screen Time Impact on Student Performance
+Skills: Data cleaning, pivot tables, correlation analysis
+Key Tasks:
+
+Clean and transform student data
+
+Create calculated fields for screen time categories
+
+Analyze screen time vs test scores relationship
+
+Build visualizations and dashboards
+
+Day 3: Nutrition & Growth Analysis
+File: Child_Health_Data.csv
+Skills: Excel tables, calculated columns, pivot tables, dashboards
+Key Tasks:
+
+Format data as Excel tables
+
+Create BMI calculated column
+
+Categorize health status using nested IF
+
+Build pivot tables and interactive dashboard
+
+Day 4: Banking Sector Credit Risk Analysis
+Skills: Data cleaning, KPI calculation, scenario analysis, visualization
+Key Tasks:
+
+Clean loan portfolio data
+
+Calculate LTV and DTI ratios
+
+Create pivot tables by loan status/grade/intent
+
+Perform Goal Seek and Scenario Manager analysis
+
+Day 5: IT Help Desk Ticket Analysis
+File: help_desk_tickets.csv
+Skills: Data processing, performance metrics, root cause analysis
+Key Tasks:
+
+Calculate resolution times
+
+Analyze ticket volume trends
+
+Identify top problems and root causes
+
+Compare analyst performance
+
+Create comprehensive dashboard
+
+Day 6: Crop Yield Forecasting
+Skills: Data cleaning, categorization, pivot tables, conditional formatting
+Key Tasks:
+
+Handle missing data and inconsistencies
+
+Create Yield_Category column
+
+Summarize data by SoilType
+
+Build pivot tables and charts
+
+Create final report with recommendations
+
+Day 7: Social Media Engagement Analysis
+Skills: Data cleaning, lookup functions, pivot tables, dashboards
+Key Tasks:
+
+Clean user data (Flash Fill, text-to-columns)
+
+Calculate user engagement metrics
+
+Use VLOOKUP/XLOOKUP and DATEDIF functions
+
+Create pivot tables and charts
+
+Build interactive dashboard
+
+🛠️ Excel Skills Covered
+Data Cleaning: Remove duplicates, handle missing values, consistent formatting
+
+Data Transformation: Calculated columns, categorization, text manipulation
+
+Formulas & Functions:
+
+Logical (IF, nested IF)
+
+Lookup (VLOOKUP, XLOOKUP)
+
+Statistical (COUNTIF, AVERAGEIF)
+
+Date & Time (DATEDIF)
+
+Pivot Tables & Charts: Data summarization, trend analysis, comparisons
+
+Data Analysis Tools:
+
+Conditional Formatting
+
+Goal Seek
+
+Scenario Manager
+
+Data Tables
+
+Visualization: Bar charts, scatter plots, line charts, pie charts, dashboards
+
+Data Management: Excel tables, data validation, flash fill
+
+📈 Business Domains Covered
+Energy Sector Analytics
+
+Educational Research
+
+Public Health Studies
+
+Banking and Risk Management
+
+IT Operations Analysis
+
+Agricultural Analytics
+
+Social Media Metrics
