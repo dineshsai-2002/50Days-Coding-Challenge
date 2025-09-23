@@ -1,0 +1,501 @@
+PatientID,AdmissionID,AdmissionDate,DischargeDate,Age,Gender,Department,DoctorID,Diagnosis,TreatmentType,BedType,LengthOfStay,TreatmentCost,InsuranceCovered,Readmitted,Outcome
+P1000,A2000,2024-05-26,2024-06-14,52,Female,Pediatrics,D120,Diabetes,Medication,Semi-Private,19,10912,Yes,No,Recovered
+P1001,A2001,2024-05-01,2024-05-23,15,Female,Pediatrics,D107,Fracture,Surgery,General,22,16186,No,No,Recovered
+P1002,A2002,2024-06-14,2024-07-08,72,Male,Oncology,D124,Infection,Therapy,ICU,24,7730,No,No,Recovered
+P1003,A2003,2024-04-11,2024-04-24,61,Female,General Medicine,D126,Diabetes,Surgery,Private,13,15932,Yes,Yes,Recovered
+P1004,A2004,2024-04-13,2024-04-25,21,Male,Orthopedics,D144,Infection,Medication,Private,12,11502,No,No,Ongoing
+P1005,A2005,2024-08-18,2024-09-13,83,Male,Orthopedics,D107,Fracture,Surgery,General,26,14447,Yes,No,Recovered
+P1006,A2006,2024-03-03,2024-03-09,87,Male,Pediatrics,D119,Cancer,Therapy,Semi-Private,6,14186,No,No,Recovered
+P1007,A2007,2024-07-15,2024-08-05,75,Female,Pediatrics,D103,Heart Disease,Surgery,General,21,18415,Yes,No,Recovered
+P1008,A2008,2024-07-19,2024-07-23,75,Female,Cardiology,D149,Cancer,Therapy,General,4,13574,Yes,Yes,Ongoing
+P1009,A2009,2024-02-11,2024-03-01,88,Male,General Medicine,D136,Diabetes,Medication,General,19,19874,Yes,No,Ongoing
+P1010,A2010,2024-02-11,2024-02-27,24,Male,Oncology,D103,Asthma,Medication,Semi-Private,16,4993,Yes,No,Recovered
+P1011,A2011,2024-04-19,2024-05-02,3,Male,Orthopedics,D148,Heart Disease,Therapy,ICU,13,17817,Yes,No,Ongoing
+P1012,A2012,2024-10-24,2024-10-28,22,Male,Cardiology,D118,Diabetes,Medication,General,4,1960,No,No,Recovered
+P1013,A2013,2024-04-18,2024-05-11,53,Female,Cardiology,D126,Fracture,Medication,Semi-Private,23,14640,Yes,No,Recovered
+P1014,A2014,2024-07-07,2024-07-24,2,Female,Orthopedics,D103,Heart Disease,Medication,ICU,17,19607,Yes,No,Recovered
+P1015,A2015,2024-05-12,2024-06-04,88,Male,Oncology,D121,Diabetes,Medication,General,23,11204,No,No,Recovered
+P1016,A2016,2024-05-31,2024-06-01,30,Male,Cardiology,D136,Fracture,Therapy,Private,1,17169,Yes,No,Recovered
+P1017,A2017,2024-08-26,2024-09-13,38,Female,Cardiology,D143,Cancer,Surgery,ICU,18,17148,No,No,Ongoing
+P1018,A2018,2024-06-05,2024-06-25,2,Female,General Medicine,D116,Asthma,Surgery,General,20,7316,No,No,Recovered
+P1019,A2019,2024-08-06,2024-08-23,64,Male,Oncology,D114,Fracture,Medication,ICU,17,12139,No,No,Recovered
+P1020,A2020,2024-02-14,2024-03-12,60,Male,Cardiology,D139,Infection,Surgery,ICU,27,14924,No,Yes,Recovered
+P1021,A2021,2024-06-03,2024-07-01,21,Male,Oncology,D140,Fracture,Surgery,ICU,28,14465,Yes,No,Recovered
+P1022,A2022,2024-01-22,2024-02-18,33,Female,Orthopedics,D133,Fracture,Medication,ICU,27,18646,Yes,No,Ongoing
+P1023,A2023,2024-01-18,2024-02-02,76,Female,Pediatrics,D101,Asthma,Medication,ICU,15,11740,No,No,Recovered
+P1024,A2024,2024-02-11,2024-02-22,58,Female,Cardiology,D127,Infection,Surgery,ICU,11,540,Yes,No,Recovered
+P1025,A2025,2024-02-28,2024-03-24,22,Male,General Medicine,D117,Diabetes,Therapy,General,25,6327,Yes,No,Ongoing
+P1026,A2026,2024-08-24,2024-09-21,89,Male,Orthopedics,D109,Diabetes,Medication,Private,28,8759,Yes,No,Recovered
+P1027,A2027,2024-01-03,2024-01-25,49,Female,Oncology,D122,Fracture,Therapy,Semi-Private,22,17871,No,No,Recovered
+P1028,A2028,2024-10-19,2024-11-01,59,Female,Orthopedics,D119,Infection,Surgery,ICU,13,15349,Yes,No,Recovered
+P1029,A2029,2024-11-25,2024-11-26,42,Male,Cardiology,D139,Infection,Medication,Semi-Private,1,16732,Yes,No,Recovered
+P1030,A2030,2024-03-03,2024-03-20,60,Female,Oncology,D126,Asthma,Therapy,General,17,8304,Yes,No,Deceased
+P1031,A2031,2024-10-29,2024-11-04,80,Female,Pediatrics,D110,Cancer,Medication,ICU,6,5874,Yes,No,Ongoing
+P1032,A2032,2024-03-18,2024-03-22,15,Male,Orthopedics,D132,Diabetes,Surgery,Private,4,3024,Yes,No,Recovered
+P1033,A2033,2024-09-03,2024-09-23,62,Female,Cardiology,D113,Asthma,Therapy,Semi-Private,20,9777,Yes,No,Ongoing
+P1034,A2034,2024-12-16,2025-01-01,62,Male,General Medicine,D135,Heart Disease,Surgery,ICU,16,19363,Yes,No,Recovered
+P1035,A2035,2024-06-10,2024-06-25,47,Male,Oncology,D107,Diabetes,Surgery,General,15,10385,No,No,Recovered
+P1036,A2036,2024-11-23,2024-12-20,62,Male,Orthopedics,D124,Asthma,Medication,Private,27,1278,Yes,No,Recovered
+P1037,A2037,2024-12-12,2024-12-27,51,Male,Orthopedics,D143,Diabetes,Therapy,Semi-Private,15,1992,No,No,Recovered
+P1038,A2038,2024-02-19,2024-02-25,55,Male,Pediatrics,D107,Cancer,Surgery,Semi-Private,6,17544,No,Yes,Recovered
+P1039,A2039,2024-02-15,2024-03-01,64,Male,Pediatrics,D111,Heart Disease,Surgery,ICU,15,18232,Yes,No,Recovered
+P1040,A2040,2024-07-12,2024-07-26,3,Male,General Medicine,D104,Cancer,Therapy,Private,14,14115,Yes,No,Ongoing
+P1041,A2041,2024-02-01,2024-02-29,51,Female,General Medicine,D146,Heart Disease,Surgery,Private,28,12632,Yes,No,Recovered
+P1042,A2042,2024-08-11,2024-08-22,7,Male,Cardiology,D144,Fracture,Surgery,Private,11,10678,No,Yes,Recovered
+P1043,A2043,2024-01-25,2024-02-01,21,Male,Cardiology,D126,Asthma,Therapy,Private,7,8351,Yes,No,Recovered
+P1044,A2044,2024-02-03,2024-02-12,73,Female,General Medicine,D106,Heart Disease,Therapy,General,9,16788,Yes,No,Recovered
+P1045,A2045,2024-08-27,2024-09-22,39,Female,General Medicine,D137,Cancer,Therapy,Private,26,7656,Yes,Yes,Recovered
+P1046,A2046,2024-02-08,2024-02-24,18,Female,Oncology,D135,Diabetes,Therapy,Semi-Private,16,2544,Yes,No,Recovered
+P1047,A2047,2024-06-23,2024-06-28,4,Male,Pediatrics,D127,Heart Disease,Medication,Semi-Private,5,7868,Yes,No,Ongoing
+P1048,A2048,2024-12-15,2025-01-09,89,Female,Cardiology,D147,Asthma,Therapy,General,25,14135,Yes,Yes,Recovered
+P1049,A2049,2024-12-17,2025-01-06,60,Male,Pediatrics,D125,Heart Disease,Medication,Semi-Private,20,9668,No,No,Recovered
+P1050,A2050,2024-09-02,2024-10-01,14,Male,Pediatrics,D111,Infection,Medication,Semi-Private,29,17611,Yes,No,Recovered
+P1051,A2051,2024-11-20,2024-11-30,9,Male,General Medicine,D144,Diabetes,Medication,Private,10,11828,Yes,No,Recovered
+P1052,A2052,2024-06-07,2024-06-25,53,Male,Oncology,D123,Asthma,Surgery,Semi-Private,18,13819,Yes,No,Recovered
+P1053,A2053,2024-12-09,2024-12-12,2,Female,Orthopedics,D129,Asthma,Medication,General,3,842,No,Yes,Recovered
+P1054,A2054,2024-03-14,2024-03-27,84,Female,Oncology,D141,Fracture,Medication,Private,13,1947,Yes,Yes,Recovered
+P1055,A2055,2024-10-19,2024-10-30,60,Male,Oncology,D106,Cancer,Surgery,ICU,11,7081,No,Yes,Recovered
+P1056,A2056,2024-04-03,2024-04-20,71,Male,Pediatrics,D126,Fracture,Surgery,Private,17,12351,Yes,Yes,Recovered
+P1057,A2057,2024-08-03,2024-08-25,44,Male,Oncology,D110,Asthma,Surgery,General,22,6817,Yes,No,Recovered
+P1058,A2058,2024-07-18,2024-07-31,8,Female,Cardiology,D146,Diabetes,Therapy,Private,13,17410,Yes,No,Recovered
+P1059,A2059,2024-09-30,2024-10-06,47,Male,Pediatrics,D106,Heart Disease,Surgery,Private,6,10588,Yes,No,Ongoing
+P1060,A2060,2024-09-05,2024-09-22,35,Male,Cardiology,D144,Heart Disease,Surgery,General,17,13446,Yes,No,Recovered
+P1061,A2061,2024-11-21,2024-12-18,78,Female,Orthopedics,D102,Diabetes,Medication,Private,27,17289,Yes,Yes,Ongoing
+P1062,A2062,2024-09-25,2024-10-08,81,Female,Pediatrics,D115,Asthma,Surgery,General,13,15067,No,No,Recovered
+P1063,A2063,2024-09-29,2024-10-18,36,Male,Orthopedics,D117,Heart Disease,Therapy,General,19,15368,Yes,No,Ongoing
+P1064,A2064,2024-01-06,2024-01-27,50,Female,Pediatrics,D131,Heart Disease,Surgery,ICU,21,10265,Yes,No,Recovered
+P1065,A2065,2024-02-12,2024-03-02,4,Female,General Medicine,D143,Heart Disease,Therapy,Semi-Private,19,12966,Yes,No,Recovered
+P1066,A2066,2024-08-25,2024-09-04,2,Male,Oncology,D121,Cancer,Surgery,Semi-Private,10,18730,Yes,No,Recovered
+P1067,A2067,2024-07-29,2024-08-01,6,Female,General Medicine,D125,Cancer,Surgery,Private,3,18362,Yes,No,Ongoing
+P1068,A2068,2024-04-05,2024-04-19,54,Male,Orthopedics,D127,Infection,Surgery,Private,14,11087,Yes,No,Recovered
+P1069,A2069,2024-01-16,2024-02-11,4,Female,Oncology,D131,Fracture,Surgery,ICU,26,1271,Yes,No,Recovered
+P1070,A2070,2024-11-08,2024-11-27,54,Male,Pediatrics,D142,Diabetes,Therapy,ICU,19,16800,Yes,No,Recovered
+P1071,A2071,2024-06-01,2024-06-06,63,Male,Oncology,D132,Diabetes,Therapy,ICU,5,9270,Yes,No,Ongoing
+P1072,A2072,2024-04-28,2024-05-27,18,Male,Cardiology,D148,Diabetes,Medication,General,29,11593,Yes,No,Recovered
+P1073,A2073,2024-02-02,2024-02-07,44,Female,Oncology,D111,Infection,Therapy,ICU,5,14303,Yes,No,Ongoing
+P1074,A2074,2024-03-29,2024-04-18,34,Male,Cardiology,D118,Cancer,Surgery,ICU,20,693,Yes,No,Recovered
+P1075,A2075,2024-02-09,2024-02-26,74,Female,Oncology,D147,Asthma,Medication,Private,17,2507,No,No,Recovered
+P1076,A2076,2024-02-19,2024-03-11,62,Male,Cardiology,D110,Asthma,Medication,ICU,21,18069,Yes,No,Recovered
+P1077,A2077,2024-06-19,2024-06-29,14,Male,Orthopedics,D112,Infection,Medication,General,10,19278,Yes,No,Deceased
+P1078,A2078,2024-07-08,2024-07-13,48,Female,General Medicine,D147,Asthma,Surgery,General,5,11690,Yes,No,Recovered
+P1079,A2079,2024-09-23,2024-09-27,15,Male,Pediatrics,D130,Diabetes,Therapy,Private,4,10484,No,Yes,Ongoing
+P1080,A2080,2024-09-24,2024-09-30,72,Male,Oncology,D135,Fracture,Surgery,ICU,6,9802,No,No,Recovered
+P1081,A2081,2024-07-04,2024-07-30,78,Female,General Medicine,D116,Heart Disease,Medication,ICU,26,7929,Yes,No,Recovered
+P1082,A2082,2024-07-26,2024-07-30,87,Male,Pediatrics,D102,Cancer,Surgery,General,4,2761,No,No,Recovered
+P1083,A2083,2024-04-07,2024-04-14,62,Male,Pediatrics,D103,Cancer,Surgery,ICU,7,7216,Yes,Yes,Recovered
+P1084,A2084,2024-07-25,2024-08-01,40,Male,Cardiology,D128,Infection,Therapy,ICU,7,9421,Yes,No,Ongoing
+P1085,A2085,2024-07-08,2024-07-26,85,Male,Orthopedics,D129,Cancer,Therapy,ICU,18,4878,No,No,Ongoing
+P1086,A2086,2024-02-05,2024-02-08,80,Female,Orthopedics,D125,Diabetes,Medication,Semi-Private,3,8315,No,No,Ongoing
+P1087,A2087,2024-12-16,2024-12-17,82,Female,General Medicine,D107,Asthma,Surgery,Private,1,14278,Yes,No,Recovered
+P1088,A2088,2024-03-22,2024-04-15,53,Male,Orthopedics,D113,Diabetes,Surgery,Semi-Private,24,13228,Yes,No,Recovered
+P1089,A2089,2024-02-05,2024-03-01,24,Female,Oncology,D120,Infection,Therapy,Private,25,10832,Yes,No,Recovered
+P1090,A2090,2024-01-08,2024-01-12,26,Male,Orthopedics,D107,Diabetes,Surgery,General,4,10336,Yes,No,Deceased
+P1091,A2091,2024-03-15,2024-03-21,89,Female,General Medicine,D110,Asthma,Surgery,ICU,6,3300,No,Yes,Recovered
+P1092,A2092,2024-02-27,2024-03-07,60,Male,Orthopedics,D144,Fracture,Surgery,Private,9,8833,Yes,No,Recovered
+P1093,A2093,2024-09-30,2024-10-22,41,Male,Oncology,D102,Infection,Therapy,Semi-Private,22,5910,Yes,Yes,Recovered
+P1094,A2094,2024-10-16,2024-10-30,29,Male,Cardiology,D141,Fracture,Medication,ICU,14,18339,Yes,No,Recovered
+P1095,A2095,2024-06-12,2024-07-10,15,Male,General Medicine,D112,Heart Disease,Medication,General,28,6308,Yes,No,Deceased
+P1096,A2096,2024-08-16,2024-08-28,45,Male,Cardiology,D139,Fracture,Surgery,Private,12,7296,Yes,Yes,Recovered
+P1097,A2097,2024-12-06,2025-01-03,65,Male,Cardiology,D109,Heart Disease,Medication,Private,28,10788,Yes,Yes,Recovered
+P1098,A2098,2024-03-29,2024-04-23,89,Female,Cardiology,D133,Heart Disease,Therapy,Private,25,18209,No,Yes,Recovered
+P1099,A2099,2024-12-03,2024-12-23,71,Male,Pediatrics,D102,Fracture,Therapy,ICU,20,18043,No,No,Recovered
+P1100,A2100,2024-11-22,2024-12-16,9,Female,Pediatrics,D105,Infection,Medication,Semi-Private,24,5150,Yes,No,Recovered
+P1101,A2101,2024-05-11,2024-06-05,88,Male,Cardiology,D150,Asthma,Medication,Semi-Private,25,5487,No,No,Recovered
+P1102,A2102,2024-12-25,2024-12-29,1,Female,General Medicine,D144,Diabetes,Surgery,Private,4,15700,No,Yes,Ongoing
+P1103,A2103,2024-01-11,2024-02-01,8,Female,Oncology,D140,Diabetes,Medication,General,21,5197,No,Yes,Ongoing
+P1104,A2104,2024-11-10,2024-12-04,88,Female,Oncology,D103,Asthma,Surgery,General,24,17224,Yes,Yes,Recovered
+P1105,A2105,2024-10-15,2024-10-27,63,Male,Orthopedics,D138,Heart Disease,Surgery,Semi-Private,12,4328,Yes,Yes,Recovered
+P1106,A2106,2024-04-14,2024-04-24,11,Male,General Medicine,D139,Heart Disease,Therapy,General,10,18852,Yes,No,Ongoing
+P1107,A2107,2024-11-10,2024-12-02,81,Female,Pediatrics,D135,Infection,Therapy,Semi-Private,22,17587,Yes,No,Recovered
+P1108,A2108,2024-09-25,2024-10-23,8,Male,Cardiology,D137,Cancer,Therapy,Private,28,13105,Yes,No,Recovered
+P1109,A2109,2024-09-01,2024-09-08,35,Female,Orthopedics,D126,Fracture,Therapy,Semi-Private,7,5982,Yes,Yes,Recovered
+P1110,A2110,2024-10-22,2024-10-25,35,Male,Oncology,D110,Heart Disease,Medication,Semi-Private,3,18684,Yes,No,Recovered
+P1111,A2111,2024-11-11,2024-12-04,33,Female,Pediatrics,D122,Diabetes,Therapy,Private,23,5963,No,No,Recovered
+P1112,A2112,2024-10-10,2024-11-07,5,Female,Pediatrics,D142,Infection,Medication,General,28,14360,Yes,No,Deceased
+P1113,A2113,2024-01-06,2024-01-20,41,Male,Cardiology,D144,Fracture,Therapy,Semi-Private,14,5412,Yes,No,Recovered
+P1114,A2114,2024-08-23,2024-09-16,28,Female,Oncology,D104,Infection,Medication,Semi-Private,24,5148,No,Yes,Recovered
+P1115,A2115,2024-02-26,2024-03-07,7,Male,General Medicine,D128,Fracture,Surgery,Private,10,1355,No,No,Recovered
+P1116,A2116,2024-08-24,2024-09-09,73,Female,Pediatrics,D124,Fracture,Medication,General,16,3366,No,No,Recovered
+P1117,A2117,2024-01-26,2024-02-11,72,Female,Cardiology,D125,Asthma,Medication,Semi-Private,16,12334,No,No,Recovered
+P1118,A2118,2024-01-24,2024-02-15,12,Male,General Medicine,D109,Heart Disease,Therapy,Private,22,16794,Yes,No,Ongoing
+P1119,A2119,2024-02-03,2024-02-13,34,Male,Oncology,D150,Infection,Medication,Semi-Private,10,17066,No,No,Ongoing
+P1120,A2120,2024-03-25,2024-04-19,33,Male,Pediatrics,D116,Infection,Surgery,ICU,25,3612,Yes,No,Recovered
+P1121,A2121,2024-04-19,2024-05-02,48,Female,General Medicine,D129,Asthma,Surgery,Private,13,4992,Yes,No,Ongoing
+P1122,A2122,2024-02-26,2024-03-03,23,Male,General Medicine,D111,Diabetes,Therapy,General,6,15614,Yes,No,Ongoing
+P1123,A2123,2024-01-31,2024-02-12,62,Female,General Medicine,D145,Diabetes,Surgery,General,12,2017,Yes,No,Ongoing
+P1124,A2124,2024-06-25,2024-07-04,88,Female,Pediatrics,D132,Heart Disease,Medication,General,9,16518,Yes,No,Recovered
+P1125,A2125,2024-09-10,2024-09-23,37,Male,Pediatrics,D112,Heart Disease,Surgery,General,13,18240,Yes,No,Recovered
+P1126,A2126,2024-07-02,2024-07-06,44,Male,Orthopedics,D149,Cancer,Therapy,Semi-Private,4,11931,No,Yes,Recovered
+P1127,A2127,2024-12-10,2025-01-03,86,Female,Oncology,D139,Asthma,Medication,Semi-Private,24,8710,Yes,No,Recovered
+P1128,A2128,2024-12-21,2025-01-01,35,Female,Cardiology,D146,Diabetes,Therapy,General,11,12095,Yes,No,Recovered
+P1129,A2129,2024-01-21,2024-02-10,65,Male,General Medicine,D104,Fracture,Medication,General,20,13371,No,No,Recovered
+P1130,A2130,2024-01-28,2024-02-15,47,Male,Orthopedics,D138,Infection,Surgery,General,18,13243,Yes,No,Ongoing
+P1131,A2131,2024-07-27,2024-08-22,78,Male,Cardiology,D122,Heart Disease,Therapy,Semi-Private,26,9824,Yes,No,Ongoing
+P1132,A2132,2024-08-12,2024-08-23,3,Male,Orthopedics,D111,Infection,Therapy,General,11,12031,Yes,Yes,Ongoing
+P1133,A2133,2024-02-04,2024-02-29,1,Male,Pediatrics,D133,Infection,Medication,General,25,7088,Yes,No,Recovered
+P1134,A2134,2024-05-19,2024-06-09,5,Female,General Medicine,D148,Cancer,Therapy,ICU,21,3811,Yes,Yes,Recovered
+P1135,A2135,2024-07-17,2024-07-21,14,Female,Cardiology,D122,Diabetes,Medication,ICU,4,1487,No,No,Recovered
+P1136,A2136,2024-01-27,2024-02-14,27,Female,Cardiology,D148,Heart Disease,Medication,General,18,3821,Yes,Yes,Recovered
+P1137,A2137,2024-04-02,2024-04-03,9,Female,Cardiology,D132,Infection,Medication,Private,1,16312,Yes,No,Recovered
+P1138,A2138,2024-03-07,2024-04-03,79,Male,Cardiology,D122,Heart Disease,Medication,General,27,5115,No,No,Recovered
+P1139,A2139,2024-07-28,2024-08-04,15,Male,Cardiology,D140,Fracture,Surgery,ICU,7,16012,No,No,Recovered
+P1140,A2140,2024-04-19,2024-04-25,42,Male,Orthopedics,D137,Cancer,Medication,Private,6,13646,Yes,No,Ongoing
+P1141,A2141,2024-05-08,2024-05-23,77,Female,General Medicine,D116,Fracture,Therapy,Private,15,14154,Yes,No,Recovered
+P1142,A2142,2024-04-27,2024-05-15,51,Female,Pediatrics,D115,Heart Disease,Surgery,General,18,3552,Yes,No,Recovered
+P1143,A2143,2024-06-24,2024-07-18,63,Male,Pediatrics,D122,Heart Disease,Therapy,ICU,24,1226,Yes,No,Recovered
+P1144,A2144,2024-05-05,2024-05-16,52,Male,Pediatrics,D129,Diabetes,Surgery,ICU,11,4260,Yes,Yes,Recovered
+P1145,A2145,2024-12-19,2025-01-08,4,Female,Pediatrics,D122,Infection,Medication,Private,20,2375,Yes,No,Recovered
+P1146,A2146,2024-10-11,2024-11-04,23,Female,Orthopedics,D121,Infection,Surgery,General,24,14469,No,Yes,Recovered
+P1147,A2147,2024-12-09,2024-12-24,15,Male,Oncology,D131,Fracture,Surgery,Semi-Private,15,4533,Yes,No,Recovered
+P1148,A2148,2024-07-15,2024-07-31,43,Male,General Medicine,D124,Cancer,Therapy,Semi-Private,16,5943,Yes,No,Recovered
+P1149,A2149,2024-08-20,2024-08-27,29,Female,Cardiology,D110,Asthma,Therapy,ICU,7,17873,Yes,No,Recovered
+P1150,A2150,2024-10-16,2024-11-06,36,Male,Oncology,D145,Infection,Medication,Semi-Private,21,4244,Yes,No,Recovered
+P1151,A2151,2024-05-19,2024-05-29,13,Male,Pediatrics,D121,Diabetes,Surgery,ICU,10,17477,Yes,No,Recovered
+P1152,A2152,2024-03-05,2024-03-31,32,Male,Oncology,D132,Fracture,Surgery,ICU,26,2274,Yes,Yes,Ongoing
+P1153,A2153,2024-04-05,2024-04-17,71,Female,General Medicine,D119,Fracture,Surgery,ICU,12,11151,No,No,Recovered
+P1154,A2154,2024-05-23,2024-06-16,59,Female,Cardiology,D133,Asthma,Medication,Semi-Private,24,1435,Yes,No,Recovered
+P1155,A2155,2024-06-19,2024-07-03,86,Female,Cardiology,D125,Diabetes,Medication,ICU,14,13895,Yes,No,Recovered
+P1156,A2156,2024-01-09,2024-02-03,28,Female,General Medicine,D110,Cancer,Medication,Private,25,4308,Yes,No,Ongoing
+P1157,A2157,2024-07-23,2024-07-28,66,Female,General Medicine,D110,Diabetes,Medication,General,5,17215,Yes,No,Ongoing
+P1158,A2158,2024-11-25,2024-12-21,42,Female,Pediatrics,D138,Cancer,Medication,General,26,12141,Yes,No,Recovered
+P1159,A2159,2024-03-30,2024-04-20,45,Female,Cardiology,D128,Diabetes,Therapy,ICU,21,19586,Yes,No,Recovered
+P1160,A2160,2024-01-09,2024-01-27,62,Male,Oncology,D111,Diabetes,Surgery,General,18,14876,Yes,No,Ongoing
+P1161,A2161,2024-12-30,2025-01-04,57,Male,Orthopedics,D147,Heart Disease,Surgery,Semi-Private,5,6389,Yes,No,Recovered
+P1162,A2162,2024-01-06,2024-01-09,6,Male,Orthopedics,D127,Fracture,Surgery,Semi-Private,3,5554,No,Yes,Recovered
+P1163,A2163,2024-11-29,2024-12-22,28,Male,General Medicine,D117,Diabetes,Surgery,General,23,4368,No,No,Recovered
+P1164,A2164,2024-10-07,2024-11-02,28,Male,Pediatrics,D130,Asthma,Surgery,Semi-Private,26,17085,No,No,Ongoing
+P1165,A2165,2024-03-28,2024-04-02,44,Male,Orthopedics,D130,Diabetes,Surgery,General,5,19381,No,No,Ongoing
+P1166,A2166,2024-03-26,2024-04-19,84,Male,Cardiology,D122,Infection,Surgery,General,24,2342,Yes,Yes,Recovered
+P1167,A2167,2024-05-08,2024-05-25,30,Female,General Medicine,D125,Fracture,Surgery,General,17,10558,No,No,Recovered
+P1168,A2168,2024-04-16,2024-05-05,62,Female,Oncology,D108,Infection,Therapy,ICU,19,9601,Yes,No,Recovered
+P1169,A2169,2024-07-15,2024-08-03,75,Male,General Medicine,D124,Fracture,Surgery,General,19,12997,No,No,Recovered
+P1170,A2170,2024-05-29,2024-06-23,89,Male,Oncology,D111,Infection,Therapy,ICU,25,5158,No,No,Deceased
+P1171,A2171,2024-07-13,2024-08-03,62,Female,General Medicine,D134,Diabetes,Medication,General,21,11881,No,Yes,Recovered
+P1172,A2172,2024-10-03,2024-10-15,1,Male,General Medicine,D138,Diabetes,Surgery,General,12,8044,No,No,Recovered
+P1173,A2173,2024-10-20,2024-11-14,27,Male,General Medicine,D128,Heart Disease,Medication,General,25,8218,Yes,No,Recovered
+P1174,A2174,2024-11-29,2024-12-28,62,Female,Oncology,D109,Asthma,Medication,Semi-Private,29,14351,Yes,No,Recovered
+P1175,A2175,2024-11-08,2024-11-17,77,Male,Oncology,D148,Infection,Medication,ICU,9,17654,Yes,No,Recovered
+P1176,A2176,2024-02-21,2024-02-22,3,Female,General Medicine,D144,Cancer,Therapy,ICU,1,12277,Yes,Yes,Recovered
+P1177,A2177,2024-02-18,2024-03-07,70,Male,Orthopedics,D132,Heart Disease,Medication,General,18,2128,Yes,No,Recovered
+P1178,A2178,2024-05-03,2024-05-24,72,Female,Pediatrics,D116,Infection,Medication,General,21,886,Yes,Yes,Recovered
+P1179,A2179,2024-03-28,2024-04-01,27,Female,Pediatrics,D113,Infection,Medication,Semi-Private,4,6531,No,No,Recovered
+P1180,A2180,2024-08-03,2024-08-13,9,Female,Pediatrics,D109,Heart Disease,Surgery,Semi-Private,10,6939,Yes,No,Recovered
+P1181,A2181,2024-11-07,2024-12-02,62,Male,Oncology,D134,Diabetes,Surgery,Semi-Private,25,13892,No,No,Recovered
+P1182,A2182,2024-08-03,2024-08-10,37,Female,Oncology,D105,Infection,Therapy,ICU,7,19350,No,No,Ongoing
+P1183,A2183,2024-03-08,2024-03-30,51,Male,Orthopedics,D133,Diabetes,Therapy,ICU,22,2782,No,No,Ongoing
+P1184,A2184,2024-10-15,2024-11-07,44,Male,Pediatrics,D135,Heart Disease,Surgery,ICU,23,2356,No,No,Deceased
+P1185,A2185,2024-04-15,2024-04-16,24,Male,Pediatrics,D104,Diabetes,Therapy,General,1,16170,Yes,No,Recovered
+P1186,A2186,2024-08-15,2024-09-01,79,Male,General Medicine,D143,Fracture,Surgery,ICU,17,2498,No,No,Deceased
+P1187,A2187,2024-07-31,2024-08-24,59,Female,Oncology,D107,Cancer,Medication,Private,24,5976,No,No,Recovered
+P1188,A2188,2024-02-25,2024-03-25,32,Female,Pediatrics,D142,Infection,Medication,Private,29,9928,Yes,Yes,Recovered
+P1189,A2189,2024-06-06,2024-07-05,88,Male,Orthopedics,D121,Asthma,Therapy,Semi-Private,29,5169,Yes,No,Recovered
+P1190,A2190,2024-12-06,2024-12-08,52,Male,Orthopedics,D133,Cancer,Surgery,ICU,2,12836,No,No,Recovered
+P1191,A2191,2024-01-09,2024-02-06,62,Female,Pediatrics,D103,Diabetes,Surgery,Private,28,9842,Yes,No,Recovered
+P1192,A2192,2024-11-02,2024-11-28,58,Male,Oncology,D122,Infection,Therapy,Semi-Private,26,7564,Yes,No,Recovered
+P1193,A2193,2024-06-16,2024-06-27,52,Female,Orthopedics,D103,Diabetes,Surgery,ICU,11,7946,Yes,No,Recovered
+P1194,A2194,2024-09-09,2024-09-18,12,Male,General Medicine,D150,Fracture,Medication,General,9,18315,Yes,Yes,Recovered
+P1195,A2195,2024-08-22,2024-08-29,39,Male,Orthopedics,D131,Heart Disease,Therapy,Private,7,6124,Yes,No,Recovered
+P1196,A2196,2024-08-14,2024-09-05,2,Female,Cardiology,D129,Infection,Therapy,General,22,7961,No,No,Recovered
+P1197,A2197,2024-07-17,2024-08-03,3,Male,Cardiology,D141,Fracture,Surgery,ICU,17,2319,Yes,No,Recovered
+P1198,A2198,2024-05-08,2024-05-25,56,Female,Oncology,D122,Fracture,Therapy,Private,17,11016,Yes,Yes,Ongoing
+P1199,A2199,2024-02-17,2024-02-19,81,Male,Pediatrics,D135,Infection,Surgery,ICU,2,14249,Yes,No,Ongoing
+P1200,A2200,2024-06-19,2024-06-25,59,Male,Oncology,D129,Diabetes,Surgery,General,6,18014,Yes,No,Recovered
+P1201,A2201,2024-12-31,2025-01-14,2,Male,Oncology,D149,Asthma,Surgery,Private,14,3158,No,No,Recovered
+P1202,A2202,2024-06-30,2024-07-06,2,Female,Oncology,D101,Fracture,Surgery,General,6,4000,Yes,Yes,Recovered
+P1203,A2203,2024-10-03,2024-10-05,54,Male,Oncology,D138,Cancer,Surgery,ICU,2,2620,Yes,No,Ongoing
+P1204,A2204,2024-08-25,2024-08-26,87,Male,General Medicine,D133,Fracture,Therapy,ICU,1,4520,Yes,No,Recovered
+P1205,A2205,2024-07-03,2024-07-13,1,Male,General Medicine,D136,Asthma,Medication,General,10,10713,Yes,No,Recovered
+P1206,A2206,2024-09-18,2024-10-09,19,Male,Orthopedics,D124,Diabetes,Medication,Private,21,3759,No,No,Recovered
+P1207,A2207,2024-05-17,2024-05-22,2,Female,Cardiology,D109,Diabetes,Therapy,General,5,10581,No,No,Recovered
+P1208,A2208,2024-01-31,2024-02-02,53,Female,Oncology,D118,Cancer,Therapy,ICU,2,2323,Yes,No,Recovered
+P1209,A2209,2024-12-03,2024-12-25,44,Male,Orthopedics,D123,Fracture,Medication,General,22,18358,Yes,Yes,Ongoing
+P1210,A2210,2024-03-15,2024-03-31,32,Female,Cardiology,D131,Diabetes,Medication,ICU,16,19126,Yes,No,Recovered
+P1211,A2211,2024-04-01,2024-04-26,70,Male,Pediatrics,D113,Asthma,Medication,General,25,13967,Yes,No,Recovered
+P1212,A2212,2024-10-16,2024-10-18,32,Male,General Medicine,D124,Infection,Medication,Private,2,7490,Yes,No,Ongoing
+P1213,A2213,2024-01-26,2024-02-05,68,Male,Cardiology,D134,Heart Disease,Medication,Private,10,3634,Yes,Yes,Ongoing
+P1214,A2214,2024-07-08,2024-07-10,55,Female,Pediatrics,D134,Heart Disease,Surgery,General,2,18954,Yes,Yes,Recovered
+P1215,A2215,2024-11-01,2024-11-17,75,Female,Cardiology,D123,Heart Disease,Therapy,General,16,17243,Yes,No,Recovered
+P1216,A2216,2024-08-28,2024-09-13,56,Female,General Medicine,D114,Fracture,Surgery,Private,16,15934,No,No,Recovered
+P1217,A2217,2024-05-06,2024-05-25,17,Female,General Medicine,D101,Cancer,Medication,ICU,19,15507,No,No,Ongoing
+P1218,A2218,2024-11-09,2024-12-08,38,Female,Orthopedics,D110,Diabetes,Medication,Private,29,10733,Yes,No,Recovered
+P1219,A2219,2024-09-01,2024-09-08,24,Female,Oncology,D110,Infection,Medication,ICU,7,16878,No,No,Ongoing
+P1220,A2220,2024-06-29,2024-07-21,69,Female,Cardiology,D118,Asthma,Surgery,General,22,1641,Yes,No,Recovered
+P1221,A2221,2024-06-07,2024-06-19,70,Female,Cardiology,D137,Infection,Surgery,General,12,18519,Yes,No,Recovered
+P1222,A2222,2024-10-21,2024-11-14,86,Female,Pediatrics,D114,Asthma,Medication,ICU,24,10635,No,No,Recovered
+P1223,A2223,2024-10-25,2024-11-09,11,Male,General Medicine,D132,Fracture,Surgery,General,15,13466,No,No,Recovered
+P1224,A2224,2024-08-30,2024-09-07,16,Female,Cardiology,D116,Heart Disease,Surgery,ICU,8,3861,No,Yes,Recovered
+P1225,A2225,2024-07-27,2024-08-02,73,Female,General Medicine,D101,Fracture,Medication,Semi-Private,6,8335,Yes,No,Recovered
+P1226,A2226,2024-09-01,2024-09-29,59,Female,Cardiology,D150,Cancer,Surgery,Private,28,11672,Yes,No,Recovered
+P1227,A2227,2024-01-20,2024-02-16,70,Female,Orthopedics,D132,Cancer,Therapy,Semi-Private,27,16890,No,No,Deceased
+P1228,A2228,2024-07-26,2024-08-05,80,Female,Oncology,D121,Asthma,Therapy,ICU,10,3767,Yes,No,Recovered
+P1229,A2229,2024-04-08,2024-04-11,3,Female,Cardiology,D145,Diabetes,Therapy,Private,3,7064,Yes,No,Recovered
+P1230,A2230,2024-05-16,2024-06-04,20,Female,General Medicine,D105,Diabetes,Therapy,ICU,19,19490,Yes,No,Recovered
+P1231,A2231,2024-06-08,2024-06-25,59,Female,Orthopedics,D119,Asthma,Medication,Private,17,11911,Yes,No,Recovered
+P1232,A2232,2024-09-29,2024-10-06,36,Female,Cardiology,D143,Cancer,Medication,Private,7,6406,Yes,No,Recovered
+P1233,A2233,2024-05-15,2024-06-05,19,Female,Pediatrics,D114,Cancer,Medication,Private,21,16528,Yes,No,Recovered
+P1234,A2234,2024-04-26,2024-05-16,67,Female,Oncology,D113,Cancer,Therapy,Private,20,8111,No,No,Ongoing
+P1235,A2235,2024-05-16,2024-06-11,19,Male,Cardiology,D124,Fracture,Therapy,ICU,26,17797,Yes,Yes,Recovered
+P1236,A2236,2024-02-16,2024-02-20,20,Male,Orthopedics,D135,Cancer,Surgery,Private,4,2511,Yes,Yes,Recovered
+P1237,A2237,2024-03-29,2024-04-12,71,Female,Pediatrics,D146,Infection,Surgery,Private,14,18326,Yes,No,Recovered
+P1238,A2238,2024-04-06,2024-04-26,52,Female,Orthopedics,D105,Heart Disease,Therapy,Semi-Private,20,11746,Yes,No,Recovered
+P1239,A2239,2024-01-12,2024-02-03,33,Male,Orthopedics,D125,Cancer,Therapy,General,22,14290,Yes,No,Recovered
+P1240,A2240,2024-06-14,2024-06-29,40,Female,Pediatrics,D104,Asthma,Therapy,General,15,12238,Yes,No,Ongoing
+P1241,A2241,2024-11-05,2024-11-29,39,Male,Orthopedics,D130,Heart Disease,Therapy,Semi-Private,24,15230,No,No,Ongoing
+P1242,A2242,2024-09-21,2024-09-29,82,Male,Pediatrics,D142,Fracture,Surgery,Semi-Private,8,11620,Yes,No,Recovered
+P1243,A2243,2024-02-01,2024-02-22,1,Male,Cardiology,D139,Asthma,Therapy,ICU,21,18713,No,No,Recovered
+P1244,A2244,2024-08-11,2024-08-26,11,Male,Pediatrics,D136,Heart Disease,Surgery,ICU,15,9267,Yes,No,Recovered
+P1245,A2245,2024-06-29,2024-07-21,57,Male,Pediatrics,D149,Asthma,Therapy,ICU,22,14203,Yes,No,Recovered
+P1246,A2246,2024-09-29,2024-10-19,89,Female,Oncology,D146,Fracture,Therapy,Semi-Private,20,1429,Yes,No,Recovered
+P1247,A2247,2024-09-24,2024-10-22,50,Male,Pediatrics,D120,Infection,Therapy,Semi-Private,28,12451,Yes,No,Recovered
+P1248,A2248,2024-02-26,2024-03-11,23,Female,Pediatrics,D124,Fracture,Surgery,Private,14,16345,No,No,Recovered
+P1249,A2249,2024-12-20,2025-01-16,31,Female,Cardiology,D148,Fracture,Surgery,ICU,27,17938,Yes,Yes,Recovered
+P1250,A2250,2024-01-16,2024-02-14,42,Male,Oncology,D116,Asthma,Medication,ICU,29,16247,Yes,No,Recovered
+P1251,A2251,2024-02-11,2024-02-20,7,Male,General Medicine,D149,Diabetes,Therapy,ICU,9,6244,No,No,Recovered
+P1252,A2252,2024-01-11,2024-01-19,16,Female,Cardiology,D146,Cancer,Medication,General,8,18784,No,No,Recovered
+P1253,A2253,2024-10-30,2024-11-25,60,Male,Cardiology,D106,Cancer,Medication,Private,26,10149,No,No,Recovered
+P1254,A2254,2024-11-09,2024-12-07,2,Male,General Medicine,D101,Infection,Surgery,ICU,28,7480,Yes,No,Ongoing
+P1255,A2255,2024-11-14,2024-12-10,1,Female,Pediatrics,D149,Infection,Surgery,ICU,26,7569,No,No,Recovered
+P1256,A2256,2024-04-14,2024-05-01,48,Female,Orthopedics,D138,Cancer,Medication,ICU,17,10091,Yes,No,Recovered
+P1257,A2257,2024-08-20,2024-08-22,12,Male,Oncology,D132,Diabetes,Therapy,General,2,942,Yes,No,Recovered
+P1258,A2258,2024-07-26,2024-08-20,69,Female,Orthopedics,D118,Cancer,Surgery,General,25,5152,Yes,Yes,Ongoing
+P1259,A2259,2024-03-02,2024-03-26,37,Male,General Medicine,D137,Diabetes,Therapy,Semi-Private,24,9870,Yes,Yes,Recovered
+P1260,A2260,2024-06-24,2024-06-27,32,Male,Cardiology,D143,Infection,Therapy,Private,3,8097,Yes,No,Recovered
+P1261,A2261,2024-05-23,2024-05-31,9,Male,Cardiology,D136,Heart Disease,Medication,Semi-Private,8,14825,Yes,No,Recovered
+P1262,A2262,2024-02-28,2024-03-11,19,Female,Oncology,D103,Asthma,Medication,Private,12,4958,No,No,Recovered
+P1263,A2263,2024-06-12,2024-06-13,48,Female,Cardiology,D146,Infection,Medication,General,1,7091,Yes,Yes,Deceased
+P1264,A2264,2024-09-11,2024-09-21,80,Female,Cardiology,D109,Infection,Medication,ICU,10,16846,Yes,No,Recovered
+P1265,A2265,2024-11-11,2024-12-01,3,Female,Oncology,D120,Fracture,Surgery,Semi-Private,20,12326,Yes,Yes,Ongoing
+P1266,A2266,2024-02-16,2024-02-19,20,Female,Oncology,D116,Fracture,Surgery,ICU,3,19193,No,No,Ongoing
+P1267,A2267,2024-05-20,2024-05-26,24,Male,General Medicine,D144,Fracture,Medication,Semi-Private,6,14638,Yes,No,Ongoing
+P1268,A2268,2024-02-05,2024-02-12,54,Male,Cardiology,D127,Asthma,Surgery,General,7,17794,Yes,No,Recovered
+P1269,A2269,2024-09-24,2024-10-14,33,Male,Cardiology,D148,Fracture,Medication,General,20,2669,No,Yes,Recovered
+P1270,A2270,2024-01-07,2024-01-30,24,Male,General Medicine,D147,Diabetes,Therapy,General,23,19056,No,No,Recovered
+P1271,A2271,2024-12-15,2025-01-09,75,Female,Pediatrics,D137,Cancer,Therapy,Semi-Private,25,6813,Yes,No,Ongoing
+P1272,A2272,2024-04-18,2024-05-15,72,Male,Pediatrics,D125,Heart Disease,Therapy,Private,27,8815,Yes,No,Recovered
+P1273,A2273,2024-02-17,2024-03-06,36,Female,Pediatrics,D144,Infection,Medication,Semi-Private,18,8536,No,No,Recovered
+P1274,A2274,2024-03-25,2024-04-05,38,Male,General Medicine,D123,Diabetes,Therapy,Private,11,1285,Yes,No,Recovered
+P1275,A2275,2024-01-10,2024-01-29,84,Female,Cardiology,D132,Heart Disease,Surgery,Semi-Private,19,6639,Yes,No,Recovered
+P1276,A2276,2024-05-07,2024-05-12,89,Female,General Medicine,D109,Diabetes,Therapy,Semi-Private,5,6844,No,No,Ongoing
+P1277,A2277,2024-02-02,2024-02-21,25,Male,General Medicine,D135,Diabetes,Therapy,General,19,19300,Yes,No,Recovered
+P1278,A2278,2024-02-07,2024-02-18,18,Male,Pediatrics,D131,Infection,Therapy,ICU,11,15473,Yes,No,Ongoing
+P1279,A2279,2024-10-09,2024-11-02,82,Male,Orthopedics,D128,Cancer,Surgery,ICU,24,6119,Yes,No,Recovered
+P1280,A2280,2024-10-18,2024-10-30,66,Male,Cardiology,D129,Fracture,Medication,Private,12,2436,Yes,No,Ongoing
+P1281,A2281,2024-10-09,2024-10-19,54,Female,Pediatrics,D116,Asthma,Surgery,ICU,10,4307,Yes,Yes,Recovered
+P1282,A2282,2024-07-04,2024-07-12,35,Male,Orthopedics,D123,Cancer,Medication,Semi-Private,8,7651,No,Yes,Recovered
+P1283,A2283,2024-11-08,2024-12-02,80,Male,Orthopedics,D102,Asthma,Medication,Semi-Private,24,9993,Yes,No,Ongoing
+P1284,A2284,2024-05-20,2024-06-17,61,Female,Oncology,D147,Infection,Therapy,General,28,12855,Yes,No,Recovered
+P1285,A2285,2024-06-01,2024-06-29,41,Male,Cardiology,D118,Infection,Medication,General,28,3736,Yes,No,Ongoing
+P1286,A2286,2024-05-07,2024-05-16,33,Male,Orthopedics,D123,Infection,Surgery,ICU,9,16348,Yes,No,Recovered
+P1287,A2287,2024-09-22,2024-09-26,68,Male,Pediatrics,D114,Heart Disease,Surgery,Private,4,2852,No,No,Recovered
+P1288,A2288,2024-02-26,2024-03-02,33,Male,Oncology,D139,Asthma,Medication,ICU,5,2432,Yes,No,Recovered
+P1289,A2289,2024-10-09,2024-10-30,14,Male,Cardiology,D134,Cancer,Therapy,ICU,21,11413,Yes,No,Recovered
+P1290,A2290,2024-10-28,2024-11-05,21,Female,General Medicine,D130,Cancer,Therapy,ICU,8,9056,Yes,Yes,Recovered
+P1291,A2291,2024-10-03,2024-10-26,48,Male,Pediatrics,D128,Diabetes,Surgery,ICU,23,5998,Yes,No,Recovered
+P1292,A2292,2024-05-01,2024-05-10,20,Male,Orthopedics,D139,Diabetes,Therapy,Semi-Private,9,11082,Yes,Yes,Recovered
+P1293,A2293,2024-05-04,2024-05-19,8,Male,Orthopedics,D142,Diabetes,Medication,Private,15,17830,No,Yes,Recovered
+P1294,A2294,2024-09-27,2024-10-12,7,Male,Pediatrics,D127,Infection,Medication,Semi-Private,15,14365,No,No,Deceased
+P1295,A2295,2024-08-04,2024-08-20,67,Male,Orthopedics,D131,Cancer,Surgery,Private,16,10069,Yes,No,Deceased
+P1296,A2296,2024-07-16,2024-07-30,17,Female,Oncology,D119,Asthma,Medication,General,14,18323,Yes,No,Recovered
+P1297,A2297,2024-08-17,2024-08-25,33,Male,Cardiology,D134,Infection,Surgery,ICU,8,5357,No,No,Recovered
+P1298,A2298,2024-09-20,2024-10-08,48,Female,Oncology,D146,Heart Disease,Medication,Semi-Private,18,840,No,No,Recovered
+P1299,A2299,2024-05-24,2024-06-03,76,Female,Orthopedics,D120,Diabetes,Surgery,Private,10,11681,Yes,No,Recovered
+P1300,A2300,2024-12-04,2025-01-01,59,Male,General Medicine,D137,Infection,Therapy,General,28,17266,Yes,Yes,Ongoing
+P1301,A2301,2024-09-06,2024-09-26,86,Male,Cardiology,D137,Infection,Medication,General,20,8991,Yes,No,Ongoing
+P1302,A2302,2024-04-21,2024-04-27,22,Male,Cardiology,D138,Heart Disease,Medication,ICU,6,638,No,No,Recovered
+P1303,A2303,2024-02-27,2024-03-10,30,Male,Pediatrics,D113,Fracture,Surgery,Private,12,858,No,No,Ongoing
+P1304,A2304,2024-02-02,2024-02-04,38,Female,Pediatrics,D130,Cancer,Surgery,Semi-Private,2,10214,Yes,Yes,Recovered
+P1305,A2305,2024-11-29,2024-12-06,51,Male,General Medicine,D141,Asthma,Medication,ICU,7,2127,Yes,No,Deceased
+P1306,A2306,2024-07-19,2024-08-04,54,Male,Cardiology,D143,Fracture,Surgery,Semi-Private,16,16496,No,No,Recovered
+P1307,A2307,2024-12-14,2024-12-17,8,Male,General Medicine,D107,Diabetes,Medication,General,3,5504,No,No,Recovered
+P1308,A2308,2024-03-05,2024-03-18,27,Male,Pediatrics,D102,Infection,Therapy,Semi-Private,13,13783,No,No,Recovered
+P1309,A2309,2024-05-07,2024-05-10,27,Male,Pediatrics,D144,Heart Disease,Surgery,Semi-Private,3,7152,No,No,Recovered
+P1310,A2310,2024-12-01,2024-12-28,21,Male,Cardiology,D143,Heart Disease,Medication,ICU,27,2651,Yes,No,Recovered
+P1311,A2311,2024-07-28,2024-08-15,30,Female,Oncology,D134,Cancer,Therapy,Semi-Private,18,9929,Yes,No,Ongoing
+P1312,A2312,2024-03-07,2024-03-18,28,Female,Orthopedics,D138,Fracture,Therapy,ICU,11,14572,Yes,No,Recovered
+P1313,A2313,2024-10-08,2024-10-16,64,Male,Pediatrics,D139,Cancer,Medication,General,8,12427,Yes,No,Recovered
+P1314,A2314,2024-02-28,2024-03-05,69,Male,Pediatrics,D107,Infection,Surgery,ICU,6,7405,Yes,No,Recovered
+P1315,A2315,2024-08-30,2024-08-31,61,Male,Oncology,D110,Cancer,Medication,ICU,1,19718,No,No,Recovered
+P1316,A2316,2024-07-20,2024-08-17,48,Female,Oncology,D106,Asthma,Therapy,Private,28,12952,Yes,No,Recovered
+P1317,A2317,2024-01-04,2024-01-05,19,Male,General Medicine,D131,Heart Disease,Medication,Semi-Private,1,16712,No,No,Recovered
+P1318,A2318,2024-01-03,2024-01-26,4,Female,General Medicine,D126,Heart Disease,Surgery,General,23,19451,Yes,No,Recovered
+P1319,A2319,2024-05-29,2024-06-06,35,Male,Orthopedics,D148,Diabetes,Therapy,ICU,8,1807,No,No,Recovered
+P1320,A2320,2024-04-07,2024-04-12,64,Male,Orthopedics,D118,Diabetes,Medication,General,5,15352,Yes,No,Recovered
+P1321,A2321,2024-03-10,2024-04-07,49,Male,Cardiology,D124,Infection,Surgery,Private,28,3160,Yes,No,Ongoing
+P1322,A2322,2024-04-12,2024-04-28,17,Male,General Medicine,D111,Asthma,Therapy,Semi-Private,16,10903,Yes,No,Ongoing
+P1323,A2323,2024-02-27,2024-03-09,44,Female,Pediatrics,D105,Fracture,Surgery,ICU,11,10738,Yes,No,Recovered
+P1324,A2324,2024-10-15,2024-10-20,30,Female,General Medicine,D142,Cancer,Therapy,Semi-Private,5,6707,No,No,Recovered
+P1325,A2325,2024-01-08,2024-01-12,46,Male,Pediatrics,D146,Infection,Medication,Private,4,1640,No,No,Recovered
+P1326,A2326,2024-02-16,2024-02-22,6,Male,Oncology,D146,Diabetes,Surgery,Private,6,2208,Yes,No,Recovered
+P1327,A2327,2024-03-26,2024-04-09,37,Female,General Medicine,D119,Cancer,Therapy,General,14,4130,Yes,No,Recovered
+P1328,A2328,2024-10-26,2024-11-17,24,Female,Oncology,D134,Diabetes,Surgery,ICU,22,10985,Yes,No,Recovered
+P1329,A2329,2024-02-11,2024-03-01,46,Female,Orthopedics,D142,Cancer,Surgery,General,19,12521,Yes,No,Recovered
+P1330,A2330,2024-07-14,2024-07-23,53,Female,Orthopedics,D140,Fracture,Medication,Private,9,17359,No,Yes,Recovered
+P1331,A2331,2024-06-17,2024-06-29,60,Male,Cardiology,D109,Infection,Surgery,Semi-Private,12,8184,No,No,Recovered
+P1332,A2332,2024-10-09,2024-10-20,63,Female,General Medicine,D113,Cancer,Therapy,General,11,1707,Yes,No,Ongoing
+P1333,A2333,2024-02-03,2024-02-17,85,Male,Oncology,D145,Asthma,Therapy,General,14,13831,No,No,Deceased
+P1334,A2334,2024-01-18,2024-02-10,32,Female,Pediatrics,D144,Heart Disease,Therapy,Semi-Private,23,2460,Yes,No,Recovered
+P1335,A2335,2024-12-20,2025-01-05,87,Female,Orthopedics,D133,Asthma,Therapy,General,16,1057,No,No,Recovered
+P1336,A2336,2024-07-10,2024-07-11,33,Female,Orthopedics,D116,Asthma,Medication,Semi-Private,1,16383,Yes,Yes,Ongoing
+P1337,A2337,2024-02-24,2024-03-08,67,Female,Pediatrics,D117,Heart Disease,Surgery,ICU,13,14393,No,No,Ongoing
+P1338,A2338,2024-12-05,2024-12-28,18,Female,Oncology,D148,Asthma,Medication,Semi-Private,23,1382,No,No,Recovered
+P1339,A2339,2024-05-03,2024-05-24,25,Male,Oncology,D101,Cancer,Surgery,ICU,21,5261,Yes,No,Recovered
+P1340,A2340,2024-02-12,2024-03-04,54,Male,General Medicine,D145,Cancer,Surgery,Semi-Private,21,6367,No,No,Recovered
+P1341,A2341,2024-05-07,2024-05-20,58,Female,General Medicine,D122,Cancer,Surgery,Private,13,13369,Yes,No,Recovered
+P1342,A2342,2024-03-05,2024-03-07,67,Female,Cardiology,D112,Heart Disease,Medication,Private,2,7666,Yes,Yes,Recovered
+P1343,A2343,2024-11-16,2024-11-20,46,Male,Orthopedics,D125,Asthma,Surgery,ICU,4,13482,Yes,No,Recovered
+P1344,A2344,2024-07-26,2024-08-23,24,Female,General Medicine,D149,Heart Disease,Medication,ICU,28,8429,No,No,Recovered
+P1345,A2345,2024-11-09,2024-11-15,32,Female,Oncology,D121,Cancer,Therapy,Private,6,5847,No,Yes,Recovered
+P1346,A2346,2024-02-29,2024-03-26,47,Male,Pediatrics,D131,Asthma,Therapy,ICU,26,7769,No,No,Ongoing
+P1347,A2347,2024-02-08,2024-03-06,86,Female,Oncology,D107,Asthma,Surgery,Semi-Private,27,14027,No,No,Recovered
+P1348,A2348,2024-11-14,2024-12-07,23,Female,Orthopedics,D120,Diabetes,Medication,Semi-Private,23,2954,Yes,No,Recovered
+P1349,A2349,2024-09-25,2024-10-22,66,Male,Oncology,D134,Diabetes,Therapy,Private,27,18830,No,No,Recovered
+P1350,A2350,2024-08-23,2024-08-28,27,Male,Cardiology,D119,Fracture,Medication,General,5,13491,Yes,Yes,Recovered
+P1351,A2351,2024-10-08,2024-11-02,2,Male,Orthopedics,D104,Infection,Medication,Semi-Private,25,3308,Yes,Yes,Deceased
+P1352,A2352,2024-11-22,2024-11-25,17,Female,Pediatrics,D110,Diabetes,Surgery,ICU,3,7142,Yes,No,Recovered
+P1353,A2353,2024-10-02,2024-10-03,33,Male,Cardiology,D114,Heart Disease,Therapy,General,1,4325,No,No,Recovered
+P1354,A2354,2024-06-24,2024-06-28,9,Male,Orthopedics,D114,Diabetes,Surgery,General,4,4036,No,No,Recovered
+P1355,A2355,2024-08-31,2024-09-25,43,Male,Pediatrics,D130,Fracture,Surgery,Semi-Private,25,15809,Yes,No,Recovered
+P1356,A2356,2024-02-05,2024-02-25,48,Male,Cardiology,D137,Asthma,Therapy,Semi-Private,20,4302,Yes,No,Ongoing
+P1357,A2357,2024-02-24,2024-02-26,39,Male,Cardiology,D102,Fracture,Therapy,General,2,18854,No,No,Recovered
+P1358,A2358,2024-09-11,2024-10-07,42,Male,Orthopedics,D144,Asthma,Medication,General,26,6642,Yes,No,Recovered
+P1359,A2359,2024-01-03,2024-01-08,26,Female,General Medicine,D118,Asthma,Therapy,Private,5,19703,No,No,Recovered
+P1360,A2360,2024-12-05,2024-12-08,50,Female,Cardiology,D120,Infection,Medication,ICU,3,9594,No,No,Recovered
+P1361,A2361,2024-03-04,2024-04-02,25,Male,Cardiology,D109,Diabetes,Medication,Private,29,864,Yes,Yes,Ongoing
+P1362,A2362,2024-04-27,2024-05-25,24,Male,Pediatrics,D120,Heart Disease,Medication,Semi-Private,28,16188,Yes,No,Ongoing
+P1363,A2363,2024-03-15,2024-04-13,13,Male,Oncology,D141,Heart Disease,Therapy,Private,29,2363,No,No,Recovered
+P1364,A2364,2024-05-09,2024-05-18,60,Female,Orthopedics,D146,Cancer,Surgery,Private,9,16999,No,No,Recovered
+P1365,A2365,2024-05-03,2024-05-23,7,Female,Orthopedics,D133,Asthma,Medication,Private,20,7584,Yes,No,Ongoing
+P1366,A2366,2024-03-10,2024-03-16,57,Female,General Medicine,D109,Heart Disease,Surgery,Private,6,8516,No,No,Ongoing
+P1367,A2367,2024-07-31,2024-08-18,36,Female,General Medicine,D103,Infection,Surgery,ICU,18,2884,Yes,No,Recovered
+P1368,A2368,2024-01-26,2024-02-01,45,Female,Orthopedics,D146,Asthma,Therapy,ICU,6,15572,Yes,Yes,Recovered
+P1369,A2369,2024-03-25,2024-04-13,20,Female,General Medicine,D115,Infection,Surgery,General,19,4435,No,Yes,Recovered
+P1370,A2370,2024-03-07,2024-04-04,65,Female,Pediatrics,D107,Heart Disease,Surgery,Semi-Private,28,13627,No,No,Ongoing
+P1371,A2371,2024-01-02,2024-01-14,8,Female,Orthopedics,D104,Heart Disease,Therapy,Private,12,14982,Yes,Yes,Recovered
+P1372,A2372,2024-08-04,2024-08-29,16,Female,General Medicine,D143,Cancer,Medication,General,25,8242,No,No,Recovered
+P1373,A2373,2024-10-09,2024-10-20,14,Male,Orthopedics,D136,Heart Disease,Surgery,General,11,16665,Yes,No,Ongoing
+P1374,A2374,2024-04-29,2024-05-01,76,Male,Oncology,D113,Asthma,Therapy,General,2,2990,Yes,No,Recovered
+P1375,A2375,2024-06-12,2024-06-27,87,Male,Cardiology,D143,Asthma,Surgery,ICU,15,13824,Yes,No,Recovered
+P1376,A2376,2024-10-20,2024-11-01,15,Male,Orthopedics,D107,Asthma,Surgery,Private,12,18608,No,No,Recovered
+P1377,A2377,2024-11-07,2024-11-19,66,Female,Cardiology,D145,Cancer,Medication,Private,12,19651,Yes,No,Recovered
+P1378,A2378,2024-10-01,2024-10-10,32,Female,General Medicine,D146,Cancer,Surgery,Semi-Private,9,1637,Yes,No,Recovered
+P1379,A2379,2024-05-21,2024-06-11,87,Male,Cardiology,D131,Heart Disease,Therapy,Private,21,3920,Yes,Yes,Recovered
+P1380,A2380,2024-02-06,2024-03-01,63,Female,Orthopedics,D129,Fracture,Surgery,Private,24,6345,No,No,Recovered
+P1381,A2381,2024-03-05,2024-03-07,86,Male,Oncology,D123,Fracture,Medication,General,2,4406,Yes,No,Recovered
+P1382,A2382,2024-03-10,2024-04-01,51,Female,General Medicine,D112,Cancer,Medication,Semi-Private,22,19837,No,No,Ongoing
+P1383,A2383,2024-09-29,2024-10-02,25,Male,Orthopedics,D134,Heart Disease,Therapy,Private,3,12913,Yes,No,Ongoing
+P1384,A2384,2024-09-10,2024-09-22,58,Female,General Medicine,D113,Fracture,Medication,ICU,12,776,Yes,Yes,Recovered
+P1385,A2385,2024-04-11,2024-05-09,63,Female,Pediatrics,D143,Heart Disease,Surgery,Private,28,18883,Yes,No,Recovered
+P1386,A2386,2024-06-27,2024-07-23,62,Male,Cardiology,D131,Heart Disease,Medication,General,26,18111,No,No,Recovered
+P1387,A2387,2024-01-01,2024-01-17,22,Female,Pediatrics,D107,Heart Disease,Therapy,ICU,16,6837,No,No,Recovered
+P1388,A2388,2024-12-18,2025-01-08,58,Male,Orthopedics,D115,Diabetes,Medication,General,21,12444,Yes,No,Recovered
+P1389,A2389,2024-12-20,2025-01-17,58,Male,Oncology,D139,Asthma,Medication,Private,28,16406,Yes,No,Recovered
+P1390,A2390,2024-09-06,2024-09-30,86,Male,General Medicine,D106,Heart Disease,Medication,ICU,24,17579,Yes,Yes,Recovered
+P1391,A2391,2024-04-18,2024-05-14,49,Male,Cardiology,D144,Diabetes,Therapy,Semi-Private,26,12806,Yes,No,Recovered
+P1392,A2392,2024-07-19,2024-07-20,52,Female,General Medicine,D112,Cancer,Medication,Semi-Private,1,11003,Yes,Yes,Recovered
+P1393,A2393,2024-04-21,2024-05-12,42,Female,Orthopedics,D112,Fracture,Medication,ICU,21,19725,Yes,No,Recovered
+P1394,A2394,2024-12-08,2024-12-11,70,Female,General Medicine,D130,Asthma,Surgery,ICU,3,4708,Yes,No,Recovered
+P1395,A2395,2024-04-16,2024-05-06,15,Male,Cardiology,D108,Fracture,Therapy,General,20,12090,Yes,No,Recovered
+P1396,A2396,2024-12-19,2024-12-21,54,Female,Orthopedics,D124,Asthma,Medication,ICU,2,11386,Yes,No,Recovered
+P1397,A2397,2024-07-12,2024-07-21,60,Male,General Medicine,D137,Fracture,Therapy,General,9,13366,No,Yes,Ongoing
+P1398,A2398,2024-01-24,2024-02-12,8,Female,Oncology,D117,Asthma,Medication,Private,19,1588,Yes,No,Ongoing
+P1399,A2399,2024-06-18,2024-07-03,53,Female,Orthopedics,D106,Fracture,Medication,General,15,3863,Yes,Yes,Recovered
+P1400,A2400,2024-11-18,2024-12-06,60,Female,Orthopedics,D114,Fracture,Medication,ICU,18,524,No,No,Recovered
+P1401,A2401,2024-08-25,2024-09-20,5,Male,Oncology,D138,Fracture,Surgery,ICU,26,10264,Yes,No,Recovered
+P1402,A2402,2024-08-02,2024-08-13,68,Female,Pediatrics,D142,Fracture,Surgery,Private,11,10459,Yes,No,Recovered
+P1403,A2403,2024-10-07,2024-11-01,6,Female,Cardiology,D114,Cancer,Surgery,ICU,25,13435,Yes,No,Recovered
+P1404,A2404,2024-04-16,2024-05-09,47,Male,Pediatrics,D118,Heart Disease,Therapy,ICU,23,8568,Yes,Yes,Ongoing
+P1405,A2405,2024-03-17,2024-04-02,55,Female,General Medicine,D107,Infection,Therapy,Semi-Private,16,19119,Yes,Yes,Recovered
+P1406,A2406,2024-10-31,2024-11-22,40,Male,Oncology,D110,Diabetes,Surgery,Semi-Private,22,7795,Yes,Yes,Ongoing
+P1407,A2407,2024-04-02,2024-04-19,52,Female,Pediatrics,D138,Infection,Therapy,Private,17,8892,No,No,Recovered
+P1408,A2408,2024-09-15,2024-09-20,16,Male,Orthopedics,D113,Infection,Medication,General,5,11890,Yes,No,Recovered
+P1409,A2409,2024-11-14,2024-11-26,13,Male,General Medicine,D134,Asthma,Medication,Semi-Private,12,8948,Yes,No,Recovered
+P1410,A2410,2024-07-15,2024-07-26,30,Female,General Medicine,D117,Heart Disease,Medication,General,11,10933,Yes,No,Recovered
+P1411,A2411,2024-08-06,2024-08-21,19,Male,Pediatrics,D122,Asthma,Surgery,ICU,15,15538,Yes,No,Recovered
+P1412,A2412,2024-03-01,2024-03-28,17,Male,Pediatrics,D141,Heart Disease,Therapy,Semi-Private,27,12028,Yes,No,Recovered
+P1413,A2413,2024-02-08,2024-02-11,63,Male,Oncology,D143,Heart Disease,Surgery,Private,3,16243,No,No,Recovered
+P1414,A2414,2024-08-13,2024-08-14,19,Male,Cardiology,D108,Fracture,Therapy,Private,1,9105,Yes,No,Deceased
+P1415,A2415,2024-03-17,2024-04-06,58,Male,Pediatrics,D138,Cancer,Medication,Private,20,2514,Yes,No,Recovered
+P1416,A2416,2024-08-16,2024-09-14,55,Male,Pediatrics,D117,Fracture,Surgery,Semi-Private,29,1881,Yes,Yes,Deceased
+P1417,A2417,2024-03-22,2024-04-07,62,Female,Orthopedics,D127,Cancer,Therapy,General,16,1598,Yes,No,Deceased
+P1418,A2418,2024-05-29,2024-05-31,23,Male,General Medicine,D141,Asthma,Therapy,ICU,2,9601,No,No,Ongoing
+P1419,A2419,2024-10-09,2024-10-11,9,Male,Cardiology,D116,Cancer,Medication,General,2,687,Yes,No,Recovered
+P1420,A2420,2024-08-22,2024-08-25,12,Female,Orthopedics,D112,Asthma,Surgery,General,3,12448,Yes,Yes,Recovered
+P1421,A2421,2024-02-01,2024-02-09,1,Female,Oncology,D122,Infection,Surgery,ICU,8,10707,Yes,No,Ongoing
+P1422,A2422,2024-06-14,2024-07-08,58,Female,Oncology,D125,Infection,Surgery,ICU,24,2592,No,No,Recovered
+P1423,A2423,2024-01-12,2024-02-09,1,Female,Pediatrics,D126,Cancer,Medication,Semi-Private,28,19014,Yes,Yes,Recovered
+P1424,A2424,2024-09-15,2024-09-30,34,Female,Pediatrics,D141,Cancer,Surgery,Semi-Private,15,5742,Yes,No,Recovered
+P1425,A2425,2024-04-27,2024-05-04,48,Female,Oncology,D138,Asthma,Medication,Semi-Private,7,9049,No,No,Recovered
+P1426,A2426,2024-04-11,2024-04-17,89,Female,Pediatrics,D139,Fracture,Medication,Semi-Private,6,5685,No,Yes,Recovered
+P1427,A2427,2024-04-24,2024-05-03,1,Male,Cardiology,D105,Asthma,Medication,Semi-Private,9,15771,Yes,Yes,Recovered
+P1428,A2428,2024-05-06,2024-05-26,16,Male,Pediatrics,D122,Fracture,Therapy,ICU,20,6276,Yes,No,Recovered
+P1429,A2429,2024-05-31,2024-06-28,61,Female,General Medicine,D116,Infection,Surgery,General,28,12949,Yes,No,Ongoing
+P1430,A2430,2024-10-01,2024-10-02,64,Male,Pediatrics,D141,Heart Disease,Surgery,Semi-Private,1,8323,Yes,No,Recovered
+P1431,A2431,2024-03-24,2024-04-01,63,Male,Orthopedics,D143,Cancer,Medication,Semi-Private,8,16217,Yes,No,Ongoing
+P1432,A2432,2024-04-04,2024-04-27,69,Male,Cardiology,D118,Fracture,Medication,General,23,7855,Yes,Yes,Recovered
+P1433,A2433,2024-11-05,2024-11-28,22,Female,Orthopedics,D141,Asthma,Surgery,Semi-Private,23,6965,Yes,No,Ongoing
+P1434,A2434,2024-07-19,2024-07-22,67,Female,Orthopedics,D132,Infection,Medication,General,3,13237,Yes,No,Recovered
+P1435,A2435,2024-12-13,2024-12-17,76,Male,General Medicine,D127,Fracture,Surgery,General,4,18381,Yes,Yes,Ongoing
+P1436,A2436,2024-12-21,2025-01-16,26,Female,Cardiology,D113,Asthma,Therapy,ICU,26,13824,No,No,Recovered
+P1437,A2437,2024-12-28,2025-01-22,16,Male,Cardiology,D148,Cancer,Medication,Private,25,10850,Yes,No,Ongoing
+P1438,A2438,2024-09-28,2024-10-13,51,Male,Cardiology,D146,Cancer,Surgery,ICU,15,3055,Yes,No,Recovered
+P1439,A2439,2024-03-10,2024-03-16,86,Male,Cardiology,D113,Diabetes,Medication,Private,6,3451,Yes,Yes,Ongoing
+P1440,A2440,2024-01-12,2024-01-27,57,Male,Cardiology,D108,Heart Disease,Surgery,Private,15,18122,No,No,Deceased
+P1441,A2441,2024-05-15,2024-06-05,29,Female,General Medicine,D135,Diabetes,Surgery,Private,21,5227,Yes,No,Recovered
+P1442,A2442,2024-02-22,2024-02-25,78,Female,Pediatrics,D135,Infection,Medication,Semi-Private,3,6186,Yes,No,Recovered
+P1443,A2443,2024-08-26,2024-09-20,69,Female,Orthopedics,D142,Fracture,Therapy,ICU,25,4201,Yes,Yes,Ongoing
+P1444,A2444,2024-07-06,2024-07-27,47,Male,Cardiology,D134,Infection,Surgery,Private,21,3280,Yes,No,Recovered
+P1445,A2445,2024-09-15,2024-10-06,62,Female,Pediatrics,D150,Asthma,Surgery,General,21,18472,Yes,No,Ongoing
+P1446,A2446,2024-01-09,2024-01-23,69,Male,Pediatrics,D128,Cancer,Surgery,Semi-Private,14,2868,Yes,No,Recovered
+P1447,A2447,2024-02-25,2024-03-16,76,Female,Orthopedics,D141,Diabetes,Therapy,ICU,20,16092,Yes,No,Recovered
+P1448,A2448,2024-03-12,2024-03-26,16,Male,General Medicine,D103,Diabetes,Therapy,Private,14,936,No,No,Deceased
+P1449,A2449,2024-08-18,2024-08-22,48,Male,Oncology,D133,Diabetes,Medication,General,4,3328,Yes,No,Recovered
+P1450,A2450,2024-10-02,2024-10-14,85,Male,Oncology,D142,Infection,Therapy,ICU,12,2056,Yes,No,Ongoing
+P1451,A2451,2024-11-25,2024-12-12,39,Female,Pediatrics,D142,Cancer,Medication,ICU,17,13864,No,No,Recovered
+P1452,A2452,2024-05-13,2024-05-20,33,Female,Orthopedics,D135,Fracture,Medication,Semi-Private,7,15561,Yes,No,Recovered
+P1453,A2453,2024-05-04,2024-05-13,23,Female,Oncology,D121,Asthma,Therapy,ICU,9,11076,Yes,No,Recovered
+P1454,A2454,2024-09-09,2024-09-12,10,Female,Pediatrics,D107,Fracture,Medication,Semi-Private,3,17066,Yes,No,Recovered
+P1455,A2455,2024-04-17,2024-05-15,69,Male,General Medicine,D103,Infection,Therapy,Private,28,7690,Yes,No,Recovered
+P1456,A2456,2024-01-18,2024-01-31,34,Female,Oncology,D134,Asthma,Medication,Semi-Private,13,6065,No,No,Recovered
+P1457,A2457,2024-07-18,2024-08-02,52,Female,Pediatrics,D138,Diabetes,Therapy,General,15,15869,No,Yes,Recovered
+P1458,A2458,2024-03-29,2024-04-16,10,Male,Pediatrics,D109,Heart Disease,Therapy,Semi-Private,18,2089,Yes,No,Recovered
+P1459,A2459,2024-02-19,2024-03-09,19,Male,Cardiology,D125,Infection,Medication,General,19,659,Yes,No,Ongoing
+P1460,A2460,2024-10-08,2024-10-09,58,Male,General Medicine,D111,Infection,Surgery,Semi-Private,1,12645,No,No,Recovered
+P1461,A2461,2024-12-29,2025-01-04,1,Female,Cardiology,D110,Cancer,Medication,ICU,6,15873,No,No,Recovered
+P1462,A2462,2024-08-05,2024-09-01,69,Male,Orthopedics,D104,Fracture,Therapy,Private,27,7055,No,No,Recovered
+P1463,A2463,2024-12-04,2024-12-31,4,Male,Cardiology,D115,Infection,Surgery,General,27,16737,Yes,No,Recovered
+P1464,A2464,2024-01-01,2024-01-24,16,Male,Cardiology,D135,Infection,Medication,Semi-Private,23,9703,Yes,No,Recovered
+P1465,A2465,2024-09-09,2024-10-06,24,Female,Oncology,D123,Diabetes,Medication,Semi-Private,27,8744,No,No,Recovered
+P1466,A2466,2024-07-18,2024-08-14,80,Male,Pediatrics,D112,Diabetes,Medication,Semi-Private,27,15243,Yes,No,Recovered
+P1467,A2467,2024-09-28,2024-09-30,2,Female,General Medicine,D116,Asthma,Surgery,ICU,2,13833,Yes,No,Recovered
+P1468,A2468,2024-12-09,2025-01-02,32,Female,Cardiology,D103,Heart Disease,Therapy,ICU,24,13841,Yes,No,Recovered
+P1469,A2469,2024-08-26,2024-09-09,84,Male,General Medicine,D129,Cancer,Medication,General,14,19191,Yes,Yes,Ongoing
+P1470,A2470,2024-09-09,2024-09-15,24,Male,Cardiology,D107,Heart Disease,Medication,General,6,1728,Yes,Yes,Recovered
+P1471,A2471,2024-07-01,2024-07-15,12,Female,Orthopedics,D122,Asthma,Medication,ICU,14,6090,Yes,No,Recovered
+P1472,A2472,2024-06-30,2024-07-04,50,Male,Cardiology,D121,Diabetes,Medication,General,4,6085,No,Yes,Recovered
+P1473,A2473,2024-08-07,2024-08-28,35,Male,Oncology,D117,Fracture,Medication,Private,21,9727,Yes,No,Recovered
+P1474,A2474,2024-09-13,2024-09-21,33,Female,Pediatrics,D128,Diabetes,Therapy,Private,8,6546,No,No,Ongoing
+P1475,A2475,2024-10-16,2024-10-19,33,Female,Orthopedics,D142,Cancer,Therapy,ICU,3,12737,Yes,No,Recovered
+P1476,A2476,2024-05-12,2024-05-31,61,Male,Cardiology,D129,Diabetes,Medication,General,19,16149,Yes,No,Recovered
+P1477,A2477,2024-03-26,2024-04-09,51,Female,General Medicine,D120,Cancer,Surgery,Semi-Private,14,5445,No,No,Recovered
+P1478,A2478,2024-07-21,2024-08-17,43,Male,Orthopedics,D114,Cancer,Therapy,Private,27,8427,Yes,No,Recovered
+P1479,A2479,2024-01-30,2024-02-19,12,Male,Orthopedics,D127,Cancer,Surgery,ICU,20,13141,Yes,No,Recovered
+P1480,A2480,2024-07-18,2024-08-04,67,Male,Cardiology,D121,Asthma,Therapy,General,17,16498,Yes,No,Recovered
+P1481,A2481,2024-10-07,2024-11-01,65,Female,Orthopedics,D131,Cancer,Medication,ICU,25,13886,Yes,Yes,Recovered
+P1482,A2482,2024-01-28,2024-02-05,33,Male,General Medicine,D144,Cancer,Therapy,Semi-Private,8,7516,No,No,Recovered
+P1483,A2483,2024-08-08,2024-09-01,40,Male,Orthopedics,D124,Fracture,Medication,Private,24,14527,No,Yes,Recovered
+P1484,A2484,2024-08-04,2024-08-18,74,Male,General Medicine,D136,Heart Disease,Therapy,ICU,14,16420,Yes,No,Recovered
+P1485,A2485,2024-02-10,2024-03-07,43,Female,Cardiology,D102,Infection,Medication,ICU,26,14252,Yes,No,Recovered
+P1486,A2486,2024-07-07,2024-07-13,44,Female,Pediatrics,D121,Heart Disease,Medication,ICU,6,18768,Yes,Yes,Recovered
+P1487,A2487,2024-09-27,2024-10-20,29,Female,Orthopedics,D140,Cancer,Medication,Semi-Private,23,18693,No,No,Deceased
+P1488,A2488,2024-10-31,2024-11-22,13,Female,Pediatrics,D116,Fracture,Medication,ICU,22,3667,Yes,No,Recovered
+P1489,A2489,2024-06-23,2024-07-09,12,Female,General Medicine,D108,Diabetes,Surgery,Semi-Private,16,12489,Yes,No,Ongoing
+P1490,A2490,2024-08-27,2024-09-21,46,Male,Orthopedics,D140,Fracture,Medication,Semi-Private,25,14587,Yes,No,Recovered
+P1491,A2491,2024-10-24,2024-11-12,2,Female,Oncology,D130,Cancer,Surgery,Semi-Private,19,2937,Yes,No,Recovered
+P1492,A2492,2024-09-14,2024-09-28,35,Female,Pediatrics,D110,Fracture,Surgery,Private,14,15775,Yes,Yes,Recovered
+P1493,A2493,2024-03-03,2024-03-22,87,Female,Orthopedics,D122,Fracture,Medication,Private,19,5776,No,No,Recovered
+P1494,A2494,2024-08-01,2024-08-04,81,Male,Pediatrics,D103,Cancer,Surgery,ICU,3,9359,Yes,No,Recovered
+P1495,A2495,2024-04-26,2024-05-06,8,Female,Orthopedics,D135,Asthma,Therapy,ICU,10,8318,Yes,No,Recovered
+P1496,A2496,2024-10-24,2024-11-12,26,Female,Cardiology,D117,Fracture,Medication,Private,19,5228,No,Yes,Recovered
+P1497,A2497,2024-12-10,2024-12-19,74,Male,Pediatrics,D121,Infection,Surgery,General,9,19508,No,No,Ongoing
+P1498,A2498,2024-08-26,2024-09-23,34,Female,Oncology,D137,Infection,Medication,Private,28,6238,Yes,No,Recovered
+P1499,A2499,2024-06-24,2024-07-14,7,Male,Oncology,D127,Fracture,Medication,Semi-Private,20,6293,Yes,No,Recovered
