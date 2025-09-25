@@ -1,0 +1,51 @@
+ProductID,ProductName,Category,SubCategory,Price
+PROD001,Product_1,Electronics,Shirt,1399
+PROD002,Product_2,Electronics,Fiction,1262
+PROD003,Product_3,Clothing,Non-Fiction,1700
+PROD004,Product_4,Clothing,Fiction,1905
+PROD005,Product_5,Home & Kitchen,Fiction,958
+PROD006,Product_6,Books,Fiction,737
+PROD007,Product_7,Clothing,Shirt,1120
+PROD008,Product_8,Electronics,Fiction,607
+PROD009,Product_9,Books,Fitness,724
+PROD010,Product_10,Books,Laptop,1027
+PROD011,Product_11,Electronics,Cookware,1729
+PROD012,Product_12,Clothing,Mobile,1102
+PROD013,Product_13,Electronics,Mobile,235
+PROD014,Product_14,Books,Cookware,884
+PROD015,Product_15,Sports,Shirt,219
+PROD016,Product_16,Sports,Shoes,520
+PROD017,Product_17,Home & Kitchen,Shirt,1999
+PROD018,Product_18,Electronics,Mobile,711
+PROD019,Product_19,Electronics,Mobile,599
+PROD020,Product_20,Home & Kitchen,Cookware,853
+PROD021,Product_21,Home & Kitchen,Fiction,1171
+PROD022,Product_22,Home & Kitchen,Shirt,670
+PROD023,Product_23,Books,Outdoor,1366
+PROD024,Product_24,Electronics,Cookware,1315
+PROD025,Product_25,Books,Fitness,1577
+PROD026,Product_26,Home & Kitchen,Mobile,1033
+PROD027,Product_27,Electronics,Cookware,926
+PROD028,Product_28,Books,Shirt,1053
+PROD029,Product_29,Books,Mobile,250
+PROD030,Product_30,Home & Kitchen,Shoes,1888
+PROD031,Product_31,Electronics,Cookware,1921
+PROD032,Product_32,Home & Kitchen,Non-Fiction,774
+PROD033,Product_33,Electronics,Mobile,1413
+PROD034,Product_34,Sports,Shirt,1348
+PROD035,Product_35,Clothing,Laptop,349
+PROD036,Product_36,Clothing,Outdoor,513
+PROD037,Product_37,Clothing,Fiction,769
+PROD038,Product_38,Home & Kitchen,Shirt,1565
+PROD039,Product_39,Sports,Fitness,504
+PROD040,Product_40,Electronics,Fitness,1915
+PROD041,Product_41,Books,Laptop,881
+PROD042,Product_42,Electronics,Fiction,1037
+PROD043,Product_43,Books,Non-Fiction,1277
+PROD044,Product_44,Electronics,Laptop,1202
+PROD045,Product_45,Sports,Laptop,643
+PROD046,Product_46,Books,Mobile,812
+PROD047,Product_47,Home & Kitchen,Fitness,1192
+PROD048,Product_48,Electronics,Mobile,463
+PROD049,Product_49,Electronics,Outdoor,1276
+PROD050,Product_50,Books,Fiction,1795
