@@ -1,10 +1,10 @@
-# 50 Days Coding Challenge
+# 50 DAYS CODING CHALLENGE
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-7-Day Excel Data Analytics Challenge
+7-DAYS EXCEL DATA ANALYTICS CHALLENGE
 --------------------------------------
 Overview
 --------
-A hands-on 7-day program to master Excel for data analysis using real-world business scenarios across multiple industries.
+A hands-on 7-days program to master Excel for data analysis using real-world business scenarios across multiple industries.
 
 Daily Challenges
 -------------------
@@ -25,3 +25,31 @@ Business Domains
 ----------------
 Energy, Education, Public Health, Banking, IT, Agriculture, Social Media.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 8-DAYS POWER BI ANALYTICS CHALLENGE 
+------------------------------------------
+OverView:
+---------
+A collection of **Power BI dashboards** solving real-world business problems across manufacturing, employee wellness, healthcare, lifestyle, e-commerce, insurance, and social media.
+## Projects
+------------
+* **Day 9 – Quality Control: Defect rates, faulty products, inspector performance
+* **Day 10 & 11 – Stress Analysis: Workload, sleep, caffeine → stress % by dept/demographics
+* **Day 12 – Eating Out & Health: Dining habits vs BMI, cholesterol, health score
+* **Day 13 – Hospitalization Analytics: Readmissions, treatment cost, bed utilization
+* **Day 14 – Instagram Engagement: Engagement rate, post type comparison, follower trends
+* **Day 15 – E-Commerce Analysis: Sales, customers, returns, CLV, profit by category
+* **Day 16 – Insurance Claims: Claim trends, fraud detection, customer segmentation
+## Features
+-----------
+* Clean data models & relationships**
+* Advanced DAX measures** (CLV, Health Score, Fraud Rate, etc.)
+* Interactive dashboards with slicers, KPIs, and conditional formatting
+* Actionable insights in every project (3–5 key findings)
+##  Deliverables
+------------------
+* Power BI.pbix files
+* Short insight summaries per project
+
+Ideal for practicing Power BI best practices in modeling, visualization, and analytics storytelling.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
